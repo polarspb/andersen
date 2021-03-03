@@ -25,4 +25,4 @@ for y in 2015 2016 2017 2018 2019 2020
 
 cut -d" " -f1,2,3 out3 | sort -n | sed -n '1s/^/min=/p; $s/^/max=/p'
 
-rm out1 out2 out3
+rm out1 out2 out3 quotes.json
