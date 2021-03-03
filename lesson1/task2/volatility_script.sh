@@ -1,5 +1,9 @@
 #!/bin/bash
 
+sudo apt install curl -y
+sudo apt install jq -y
+
+curl -s https://yandex.ru/news/quotes/graph_2000.json > ./quotes.json
 jq -r '.prices[][]' quotes.json | cut -c 1-10 > out1
 
 while read x
