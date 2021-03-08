@@ -9,7 +9,7 @@ PINFO=$(netstat -tunapl | awk '{print "$STR" $5 $7}' | cut -d: -f1 | sort | uniq
 PNAME=$(ss -tup | sed -n '/'\"$STR'/p')
 PID=$(ss -tup | sed -n '/'=$STR'/p')
 
-echo "-----------------------------------------"
+echo "----------------------------------------------"
 echo
 if [ -z "$STR" ]
 then
@@ -22,10 +22,10 @@ then
 elif [ -n "$PINFO" ] 
 then
  echo "$PINFO" | while read IP ; do whois $IP | awk -F':' '/^Organization/ || /^Address/ || /^City/ || /^Country/ {print $0}' ; done 
- echo
+ echo 
 else 
  echo "Error. No connection!"
  echo
 fi
-echo "-----------------------------------------"
+echo "----------------------------------------------"
 echo
