@@ -1,4 +1,4 @@
-## Practice of education by Andersen Course.
+### Practice of education by Andersen Course.
 
 https://andersenlab.com/
 
