@@ -1,2 +1,3 @@
+#!/bin/bash
 curl -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/polarspb/andersen/contributors | jq -r '.[] | {"login": .login, "id": .id, "cont": .contributions}'
 
