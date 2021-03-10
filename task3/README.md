@@ -1,7 +1,7 @@
 ### Pull Request script
 
-#### Script checks if there are open pull requests for a repository
-#### Show information about contributors and followers
+#### 1. Script checks if there are open pull requests for a repository
+#### 2. Show information about contributors and followers
 
 ```
 Examle
