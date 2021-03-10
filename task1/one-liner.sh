@@ -19,11 +19,11 @@ then
  echo "Error. Wrong process name/ID."
 elif [ -n "$PINFO" ] 
 then
- echo "$PINFO" | while read IP ; do whois $IP | awk -F':' '/^Organization/ || /^Address/ || /^City/ || /^Country/ {print $0}' ; done 
+ echo "$PINFO" | while read IP ; do whois $IP | awk -F':' '/^Organization/ || /^Netname/ || /^netname/ {print $0}' ; done 
  echo
  echo "----------------------------------------------"
  echo
- echo "$PINFO" | while read IP ; do whois $IP | awk -F':' '/^Organization/ {print $2}' ; done | sort | uniq -c | while read COUNT ; do echo "Connections: $COUNT" ; done
+ echo "$PINFO" | while read IP ; do whois $IP | awk -F':' '/^Organization/ {print $2}' ; done | sort | uniq -c | while read COUNT ; do echo "Connections: $COUNT" ; done | awk '{print $0};{s += $2} END {print "Total Connections:" " " s}'
 else 
  echo "Error. No connection!"
  echo
