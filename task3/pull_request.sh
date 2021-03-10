@@ -7,17 +7,7 @@ then
  echo "Input URL"
  read IN_URL
  API=$(sed 's!github.com!api.github.com/repos!g' <<< "$IN_URL")
- echo $API
- echo -e "Select item: \n1 - all information \n2 - contributors \n3 - followers  \n4 - pull requests \n----------------------"
- read MENU 
- echo
-  if [[ $MENU -eq 1 ]]
-   then
-   curl -H "Accept: application/vnd.github.v3+json" $API/issues | jq -r '.[] | .user .login' | sort | uniq -c
-#contributors | jq -r '.[] | {"Login" : .login, "id" : .id, "url" : .url}'
-  else
-   echo "1"
-  fi
+ curl -H "Accept: application/vnd.github.v3+json" $API/issues | jq -r '.[] | .user .login' | sort | uniq -c
 elif [[ $INPUT -eq 2 ]]
 then 
 echo "2"
@@ -48,7 +38,7 @@ echo
  elif [[ $MENU -eq 4 ]]
  then
   echo "4"
-  curl -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/$NAME/$REPO | jq -r '. | {"open pull request" : .open_issues}'
+  curl -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/$NAME/$REPO/issues | jq -r '.[] | .user .login' | sort | uniq -c
  else
   echo "Wrong menu item"
  fi
