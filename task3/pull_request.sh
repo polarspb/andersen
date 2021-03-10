@@ -13,7 +13,7 @@ then
  echo
   if [[ $MENU -eq 1 ]]
    then
-   curl -H "Accept: application/vnd.github.v3+json" $API/contributors | jq -r '.'
+   curl -H "Accept: application/vnd.github.v3+json" $API/contributors | jq -r '.[] | {"Login" : .login, "id" : .id, "url" : .url}'
   else
    echo "1"
   fi
