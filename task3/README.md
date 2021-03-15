@@ -1,10 +1,18 @@
 ### Pull Request script
 
-#### 1. Script checks if there are open pull requests for a repository
-#### 2. Show information about contributors and followers
-
 ```
-Examle
+Example
+
+Select item: 
+--------------------------- 
+1 - Input URL (https://github.com/user/repo 
+2 - Manual Imput 
+---------------------------
+select 1
+Input URL
+https://github.com/polarspb/andersen
+
+select 2
 input user name: polarspb
 input user repo: andersen
 Select menu:
@@ -13,3 +21,4 @@ Select menu:
 3 - followers
 4 - pull requests
 ```
+
