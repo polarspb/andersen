@@ -21,10 +21,6 @@ Organization:   Google LLC (GOOGL-2)
 Address:        1600 Amphitheatre Parkway
 City:           Mountain View
 Country:        US
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ab1f14a... Update README.md
 Organization:   Amazon Technologies Inc. (AT-88-Z)
 Address:        410 Terry Ave N.
 City:           Seattle
@@ -41,7 +37,6 @@ Organization:   Amazon.com, Inc. (AMAZON-4)
 Address:        1918 8th Ave
 City:           SEATTLE
 Country:        US
-<<<<<<< HEAD
 -----------------------------------------------
 Connections: 2    Amazon.com, Inc. (AMAZON-4)
 Connections: 2    Amazon Technologies Inc. (AT-88-Z)
@@ -50,17 +45,4 @@ Connections: 1    Google LLC (GOOGL-2)
 ```
 ### P.S.
 
-=======
-=======
->>>>>>> ab1f14a... Update README.md
------------------------------------------------
-Connections: 2    Amazon.com, Inc. (AMAZON-4)
-Connections: 2    Amazon Technologies Inc. (AT-88-Z)
-Connections: 1    Google LLC (GOOGL-2)
------------------------------------------------
-
-```
-
-PS
->>>>>>> dce1317... Update README.md
 If you will not input params you get error message "Error. Input text...".
