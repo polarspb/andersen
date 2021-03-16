@@ -1,0 +1,30 @@
+---
+ - name: Install Flask and Python
+   hosts: all
+   become: yes
+
+   tasks:
+   - name: Install PIP
+     apt: name={{ item }} state=latest
+     loop:
+       - python-pip
+       - python3-pip 
+   
+   - name: Install Flask
+     shell: pip install flask
+
+   - name: Create server
+     get_url:
+       url: https://raw.githubusercontent.com/polarspb/andersen/main/task4/server.py
+       dest: /usr/local/bin/
+
+   - name: Create service
+     get_url:
+       url: https://raw.githubusercontent.com/polarspb/andersen/main/task4/andersen.service
+       dest: /usr/lib/systemd/system/
+
+   - name: Start service
+     shell: |
+       systemctl daemon-reload
+       systemctl enable andersen.service
+       systemctl start andersen.service

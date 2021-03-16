@@ -1,0 +1,24 @@
+[Unit]
+Description=Start Flask Service
+After=multi-user.target
+<<<<<<< HEAD
+Conflicts=getty@tty1.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python /usr/local/bin/server.py
+=======
+Conflicts=polarspb@mail.ru
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python $HOME/server.py
+>>>>>>> c7ccbdc... task4/andersen.service
+StandardInput=tty-force
+
+[Install]
+WantedBy=multi-user.target
+<<<<<<< HEAD
+
+=======
+>>>>>>> c7ccbdc... task4/andersen.service
