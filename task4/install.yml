@@ -4,7 +4,7 @@
    become: yes
 
    tasks:
-   - name: Install PIP
+   - name: Install PIP and PIP3
      apt: name={{ item }} state=latest
      loop:
        - python-pip
@@ -13,7 +13,7 @@
    - name: Install Flask
      shell: pip install flask
 
-   - name: Create server
+   - name: Copy file server.py
      get_url:
        url: https://raw.githubusercontent.com/polarspb/andersen/main/task4/server.py
        dest: /usr/local/bin/
