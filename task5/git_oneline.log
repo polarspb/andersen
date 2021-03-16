@@ -1,0 +1,131 @@
+commit 75a5a37e2cae6cfa3accab9daef6c0aa0c530b12
+Author: polarspb <polarspb@debian-main.domain>
+Date:   Tue Mar 16 09:33:33 2021 -0400
+
+    upload task5/README.md
+
+commit db4eefc01af768b1a5cd3157269a4f5bf58c4634
+Author: iPolishchuk <79876555+polarspb@users.noreply.github.com>
+Date:   Tue Mar 16 08:57:55 2021 -0400
+
+    edit course structure in main README.md
+
+commit bdd49420b78bf90bae52263f3ce4efe084361c3d
+Author: polarspb <polarspb@debian-main.domain>
+Date:   Tue Mar 16 08:55:57 2021 -0400
+
+    insert couse structure in main README.md
+
+commit 53e69440ef4dcd9ae1719e89ed1723ac3c9865bd
+Author: polarspb <polarspb@debian-main.domain>
+Date:   Tue Mar 16 08:50:30 2021 -0400
+
+    edit main README.md
+
+commit 38ae36999dac0b4c462ef56a4d3c63b52913adda
+Author: polarspb <polarspb@debian-main.domain>
+Date:   Tue Mar 16 07:40:15 2021 -0400
+
+    edit task1/README.md
+
+commit cdd84f42b9a9de2dc92038e2681ef5a61057389b
+Author: polarspb <polarspb@debian-main.domain>
+Date:   Tue Mar 16 07:38:12 2021 -0400
+
+    edit comment in task3/pull_request.sh
+
+commit 86ce86594875d8e3a0342951a05e16bbe55b387f
+Author: polarspb <polarspb@debian-main.domain>
+Date:   Tue Mar 16 07:35:34 2021 -0400
+
+    edit name of task in task4/install.yml
+
+commit 6af481f2cd585991cf9e30cb7e1fbe798b29e238
+Author: polarspb <polarspb@debian-main.domain>
+Date:   Tue Mar 16 07:33:15 2021 -0400
+
+    fix task4/server.py
+
+commit 4799929ae65c73051a52b5ee4c2970958df07753
+Author: polarspb <polarspb@debian-main.domain>
+Date:   Tue Mar 16 07:13:05 2021 -0400
+
+    upload task4/andersen.service, install.yml, server.py
+
+commit ff9ac4d36755e2ec9648f7e24a37fd5f678181c3
+Author: polarspb <polarspb@debian-main.domain>
+Date:   Tue Mar 16 07:11:50 2021 -0400
+
+    edit task4/README.md
+
+commit 5b7741a66771cd0c71e1c679f7a785610e7389f8
+Author: polarspb <polarspb@debian-main.domain>
+Date:   Tue Mar 16 07:06:32 2021 -0400
+
+    upload task4/README.md
+
+commit d1a389c370971d370f09a20b3b0f404b8f1c2d54
+Author: polarspb <polarspb@debian-main.domain>
+Date:   Tue Mar 16 07:03:21 2021 -0400
+
+    upload task3/pull_request.sh
+
+commit 0c22ec81d4d864435aac97bc14b2b06453a5fca7
+Author: polarspb <polarspb@debian-main.domain>
+Date:   Tue Mar 16 06:02:16 2021 -0400
+
+    upload task3/README.md
+
+commit 7781dd135ab25936a5274cbe1ecf76ad81ce5fd2
+Author: polarspb <polarspb@debian-main.domain>
+Date:   Tue Mar 16 06:01:30 2021 -0400
+
+    upload task2/volatility_script.sh
+
+commit 6dba01dc24795a9e22a63fc55cf4a87444b70c30
+Author: polarspb <polarspb@debian-main.domain>
+Date:   Tue Mar 16 06:00:42 2021 -0400
+
+    upload task2/quotes.json
+
+commit caaaebcfb349fa2bc8099ae174edb99dd333dd49
+Author: polarspb <polarspb@debian-main.domain>
+Date:   Tue Mar 16 05:59:52 2021 -0400
+
+    upload task2/README.md
+
+commit 7e1e3f7d7d1820bbd90cea567761c35408d4be66
+Author: polarspb <polarspb@debian-main.domain>
+Date:   Tue Mar 16 05:58:02 2021 -0400
+
+    upload task1/one-liner.sh
+
+commit 7ab345cb83d1895cc7bf80d066700ac916f53802
+Author: polarspb <polarspb@debian-main.domain>
+Date:   Tue Mar 16 05:56:59 2021 -0400
+
+    upload task1/README.md
+
+commit 3ac14b05313144a9c2e0815cce9d9986e6e5556f
+Author: polarspb <polarspb@debian-main.domain>
+Date:   Tue Mar 16 05:55:40 2021 -0400
+
+    upload task0/upgrade-debian.sh
+
+commit 494b8dee31315fe674fa10750d9e63b2f8c6864c
+Author: polarspb <polarspb@debian-main.domain>
+Date:   Tue Mar 16 05:54:30 2021 -0400
+
+    upload task0/README.md
+
+commit b4e87916794d645bc405376c360b65940e71ab2a
+Author: polarspb <polarspb@debian-main.domain>
+Date:   Tue Mar 16 05:53:12 2021 -0400
+
+    upload main README.md
+
+commit 64c410419adffedfab607af1712c999fb4f88a1f
+Author: polarspb <79876555+polarspb@users.noreply.github.com>
+Date:   Tue Mar 2 00:44:54 2021 +0300
+
+    update
