@@ -4,10 +4,12 @@
 MAN=$(echo ""application/vnd.github.v3+json" https://api.github.com")
 LINE=--------------------------------------------
 
+#Menu input
 echo
 echo -e "Select item: \n$LINE \n1 - Input URL (https://github.com/user/repo) \n2 - Manual input \n$LINE"
 read INPUT
 
+#Automatic
 if [[ $INPUT -eq 1 ]]
  then
   echo -e "\nInput URL \n$LINE"
@@ -15,6 +17,7 @@ if [[ $INPUT -eq 1 ]]
   echo -e "\n-------------------------------------------------------------------------------"
   API=$(sed 's!https://github.com!repos!g' <<< "$IN_URL") 
   curl -H $MAN/$API/issues | jq -r '.[] | .user .login' | sort | uniq -c  
+#Manual
 elif [[ $INPUT -eq 2 ]]
  then 
   echo -n -e "\nInput user name: "
