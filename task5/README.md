@@ -6,12 +6,12 @@
 
 ### Solution
 
-Attached files
+#### Attached files
 
 git_oneline.log - short log  
 git_full.log - full log  
 
-Commands
+#### Commands
 
 p, pick <commit> = use commit  
 r, reword <commit> = use commit, but edit the commit message  
